@@ -195,9 +195,9 @@ class Menu {
                 
                 if(opcao != 9)
                 submenu1();
-                std::cout << "\x1b[2J";
+                //std::cout << "\x1b[2J";
                 //windows
-                //std::system("cls");
+                std::system("cls");
                 //linux
                 //std::system("clear");
                 mapaFuncoes[opcao]();
